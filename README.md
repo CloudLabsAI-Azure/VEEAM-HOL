@@ -43,4 +43,11 @@
 ![veeam18](./images/veeam18.jpg)
 5. Click on **Finish**
 ![veeam19](./images/veeam19.jpg)
-
+6. Click on **profile** and **+Add**
+![veeam20](./images/veeam20.jpg)
+7. Select the **Region**, select the proper region and click on **add** and click on **Next**
+![veeam21](./images/veeam21.jpg)
+8. Move to the **worker profile** and click **Next**
+![veeam22](./images/veeam22.jpg)
+9. Go to **summary** and click **Finish**
+![veeam23](./images/veeam23.jpg)
