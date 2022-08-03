@@ -107,3 +107,28 @@
 ![veeam48](./images/veeam48.jpg)
 18. Verify that the backup and snapshot creation **success**
 ![veeam49](./images/veeam49.jpg)
+
+## Delete the Windows Virtual Machines
+1. Login to the Azure Portal Using the credentials given in the Environment details.
+2. Search for the Virtual Machine in search tab select the  **Veeamwindows** VM and **Delete**.
+![veeam50](./images/veeam50.jpg)
+3. Select the **Veeamwindows** and check the checkbox for Confirmation and click **delete**
+![veeam51](./images/veeam51.jpg)
+
+## Restoring the Windows Virtual Machine
+1. Select **Protected data** and select the restore point of the Windows VM
+![veeam52](./images/veeam52.jpg)
+2. Select **Restore** and then **Restore VM**
+![veeam54](./images/Veeam54.jpg)
+3. Select **VeeamWindows** and Click **Next**
+![veeam55](./images/veeam55.jpg)
+4. Goto **Account**, **Select Account**, and **Select Azure Active Directory**, Click **Apply** and Click **Next**.
+![veeam56](./images/veeam56.jpg)
+5. Go to **Restore Mode** and select the **Restore to Original Location** and click **Next**
+![veeam57](./images/veeam57.jpg)
+6. Go to **Reason** provide the **Restore Reason** and click **Next**
+![veeam58](./images/Veeam58.jpg) 
+7. Go to **Summary** and read through the Description and Click on **Restore**
+![veeam59](./images/veeam59.jpg)
+8. Go to Session Logs and verify that restore is in success state and Verify In the Azure Portal
+![veeam60](./images/veeam60.jpg)
