@@ -31,3 +31,16 @@
 ![veeam12](./images/veeam12.jpg)
 7. Move to the **Summary** and click **Finish** to setup the microsoft account
 ![veeam13](./images/veeam13.jpg)
+
+## Add the Workers to Workspace
+1. Go to **Getting Started page** and **click on Review workers configuration**
+![veeam14](./images/veeam14.jpg)
+2. Click on **+Add**
+![veeam15](./images/veeam15.jpg)
+3. Click on **region** and select the region of the resource group and **Apply** and Click **Next**
+![veeam16](./images/veeam16.jpg)
+4. Select the **Virtual Network**, **Subnet** and **Network security Group** and **Next**
+![veeam18](./images/veeam18.jpg)
+5. Click on **Finish**
+![veeam19](./images/veeam19.jpg)
+
