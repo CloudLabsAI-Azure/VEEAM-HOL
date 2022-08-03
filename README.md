@@ -85,3 +85,11 @@
 ![veeam37](./images/veeam37.jpg)
 7. Select the checkbox for virtual machine and click on **ADD**
 ![veeam38](./images/veeam38.jpg)
+8. Click on **APPLY**
+![veeam39](./images/veeam39.jpg)
+9.Click on **Next**
+![veeam40](./images/veeam40.jpg)
+10. Move to **Guest processing** and **Enable application aware snapshots** and click **Next**
+![veeam41](./images/veeam41.jpg)
+11. Select the **Targets** and **Enable Backup:on** click **Next**
+![veeam42](./images/veeam42.jpg)
