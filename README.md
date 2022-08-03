@@ -79,3 +79,9 @@
 ![veeam34](./images/veeam34.jpg)
 4. Select the **Azure Active Directory**, select the directory which is given in the azure and select the **Region**
 ![veeam35](./images/veeam35.jpg)
+5. Select the  **All resource**
+![veeam36](./images/veeam36.jpg)
+6. Select the **protect the following resources** and **Browse to select the specific resource from the global list**
+![veeam37](./images/veeam37.jpg)
+7. Select the checkbox for virtual machine and click on **ADD**
+![veeam38](./images/veeam38.jpg)
