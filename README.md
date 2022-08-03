@@ -51,3 +51,31 @@
 ![veeam22](./images/veeam22.jpg)
 9. Go to **summary** and click **Finish**
 ![veeam23](./images/veeam23.jpg)
+10. Move to **instance** tab and verify instance is created if it is still in creating state wait till it move to created state
+![veeam24](./images/veeam24.jpg)
+
+## Add the repository
+1. Move to **Getting Started** page and click on **Add repository**
+![veeam25](./images/veeam25.jpg)
+2. Click on **+Add**
+![veeam26](./images/veeam26.jpg)
+3. Enter the **Name** and **Discription** and Click **Next**
+![veeam27](./images/veeam27.jpg)
+4. Select the **storage account**, **Conatiner** and create the **NewFolder** and **Next**
+![veeam28](./images/veeam28.jpg)
+5. Select the **Option** and click **Next**
+![veeam28](./images/veeam29.jpg)
+6. Click on **Summary** and **Finish**
+![veeam30](./images/veeam30.jpg)
+7. Verify that the repository is creation in success state.
+![veeam31](./images/veeam31.jpg)
+
+## Create Backup policy for Virtual Machines
+1. Move to **Getting started page** and **Create your first policy**
+![veeam32](./images/veeam32.jpg)
+2. Click on **+Add**
+![veeam33](./images/veeam33.jpg)
+3. Click on **PolicyInfo** enter the **Name** and **Description** and click **Next**
+![veeam34](./images/veeam34.jpg)
+4. Select the **Azure Active Directory**, select the directory which is given in the azure and select the **Region**
+![veeam35](./images/veeam35.jpg)
