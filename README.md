@@ -99,3 +99,7 @@
 ![veeam44](./images/veeam44.jpg)
 14. Select the **Settings** click **Next**
 ![veeam45](./images/veeam45.jpg)
+15. Select the **Cost Estimation** and review the cost estimation and click **Next**
+![veeam46](./images/veeam46.jpg)
+16. Select the **Summary** and review the summary and click on **Finish**
+![veeam47](./images/veeam47.jpg)
