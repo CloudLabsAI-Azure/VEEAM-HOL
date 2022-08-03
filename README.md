@@ -103,3 +103,7 @@
 ![veeam46](./images/veeam46.jpg)
 16. Select the **Summary** and review the summary and click on **Finish**
 ![veeam47](./images/veeam47.jpg)
+17. Select the **checkbox** for the priority and click on **Start**
+![veeam48](./images/veeam48.jpg)
+18. Verify that the backup and snapshot creation **success**
+![veeam49](./images/veeam49.jpg)
