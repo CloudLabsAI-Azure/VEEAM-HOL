@@ -93,3 +93,9 @@
 ![veeam41](./images/veeam41.jpg)
 11. Select the **Targets** and **Enable Backup:on** click **Next**
 ![veeam42](./images/veeam42.jpg)
+12. Select the **Schedule**, **Daily Retension:On** and **Edit Daily Settings**
+![veeam43](./images/veeam43.jpg)
+13. Select the **Repository** : **Azure Backup**, Click on **Apply** and Click **Next**
+![veeam44](./images/veeam44.jpg)
+14. Select the **Settings** click **Next**
+![veeam45](./images/veeam45.jpg)
