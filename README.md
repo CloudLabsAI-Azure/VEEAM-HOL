@@ -132,3 +132,30 @@
 ![veeam59](./images/veeam59.jpg)
 8. Go to Session Logs and verify that restore is in success state and Verify In the Azure Portal
 ![veeam60](./images/veeam60.jpg)
+
+## Azure SQL Backup
+1. Move to **Policies**, select the **Azure SQL** and **ADD+**
+![Veeam61](./images/Veeam61.jpg)
+2. Go to **PolicyInfo** Enter Value For **Name** and **Description** and Click **Next**
+![veeam62](./images/veeam62.jpg)
+3. Select the **Sources** Select the **Azure Active Directory** for Source in the Region select **select region**
+![veeam63](./images/veeam63.jpg)
+4. Select the **Region** and click on **ADD** and click on **Apply**
+![veeam64](./images/veeam64.jpg)
+5. Select the **Resource to Protect**, Clink on **protect the following resources** and **Select Browse to select the specifid resource from global list**
+![veeam65](./images/veeam65.jpg)
+![veeam66](./images/veeam66.jpg)
+6.Select the checkbox for the **VeeamSQL** and click on **ADD**, Click on **Apply** and click on **Next**
+![veeam67](./images/veeam67.jpg)
+7.Select the **Processing Options**, move to **Use staging servers (recommended for database consistency)** and Click on **select server**
+![veeam68](./images/veeam68.jpg)
+8. Select the **Browse** option for **Staging server** and click on **+ADD** for adding SQL account
+![veeam69](./images/veeam69.jpg)
+9. Select the **AccountInfo** enter the **Name** and **Description** and click on **Next**
+![veeam70](./images/veeam70.jpg)
+10. Select the Account Enter the **Username** ,**Password** and click **Next**
+![veeam71](./images/veeam71.jpg)
+11. Move to **Summary** and click **Next**
+![veeam72](./images/veeam72.jpg)
+12. Select **Apply** and click **Next**
+![veeam73](./images/veeam73.jpg)
