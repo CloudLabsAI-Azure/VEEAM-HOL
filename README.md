@@ -159,3 +159,13 @@
 ![veeam72](./images/veeam72.jpg)
 12. Select **Apply** and click **Next**
 ![veeam73](./images/veeam73.jpg)
+13. Select **Schedule**, Enable radio button for **Daily retention** and **Edit Daily Settings**
+![veeam74](./images/veeam74.jpg)
+14. Select **Repository** for AzureBackup, Click **Apply**  and click **Next**
+![veeam75](./images/veeam75.jpg)
+15. Goto **Settings** and click **Next**
+![veeam76](./images/veeam76.jpg)
+16. Move **Cost Estimation** and click **Next**
+![veeam77](./images/veeam77.jpg)
+17. Move **Summary** and click **Finish**
+![veeam78](./images/veeam78.jpg)
