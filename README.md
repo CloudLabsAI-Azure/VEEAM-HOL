@@ -171,4 +171,5 @@
 ![veeam78](./images/veeam78.jpg)
 18. In the **policies**, click on **Azure SQl** and check the **priority**, Click on **Start**
 ![veeam79](./images/veeam79.jpg)
-19. 
+19. Make sure that backup is **Success**
+![veeam80](./images/veeam80.jpg)
