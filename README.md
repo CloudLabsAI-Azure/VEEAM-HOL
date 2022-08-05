@@ -169,3 +169,6 @@
 ![veeam77](./images/veeam77.jpg)
 17. Move **Summary** and click **Finish**
 ![veeam78](./images/veeam78.jpg)
+18. In the **policies**, click on **Azure SQl** and check the **priority**, Click on **Start**
+![veeam79](./images/veeam79.jpg)
+19. 
