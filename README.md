@@ -173,3 +173,30 @@
 ![veeam79](./images/veeam79.jpg)
 19. Make sure that backup is **Success**
 ![veeam81](./images/veeam81.jpg)
+
+## Delete the SQL Database
+1. Move to Azure Portal Search for the **SQL database** and open the database which had **backup**.
+![veeam83](./images/veeam83.jpg)
+2. Select the overview of **SQL Database** and click on **Delete**
+![veeam84](./images/veeam84.jpg)
+3. **TYPE THE DATABASE NAME** and click on **Delete**
+![veeam85](./images/veeam85.jpg)
+**Note**:Wait untill deletion is success
+
+## Recovery of SQL Database
+1. Move to **protect data** ,select **Azure SQL**,Select the **checkbox for the Azure SQL** and Click on **restore** 
+![veeam82](./images/veeam82.jpg)
+2. Goto **Databases**, Select the **SQLdatabase** and Click on **Next**
+![veeam86](./images/veeam86.jpg)
+3. Goto **Accounts**, **select the Account**, Select the Account given, click **Apply** and **Next**
+![veeam87](./images/veeam87.jpg)
+4. Goto **Restore Mode**, select the checkbox for **Restore to the original location** and click **Next**
+![veeam88](./images/veeam88.jpg)
+5. Goto **SQL Account**,select **Account**, click **Apply** and **Next**
+![veeam89](./images/veeam89.jpg)
+6. Goto **Reason**,**enter Reason** click **Next**
+![veeam90](./images/veeam90.jpg)
+7. Select **Summary** click on **Restore**
+![veeam91](./images/veeam91.jpg)
+8. Move to **session log** please verif that Restore is **Success**
+![veeam92](./images/veeam92.jpg)
