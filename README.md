@@ -138,7 +138,7 @@
 ![Veeam61](./images/Veeam61.jpg)
 2. Go to **PolicyInfo** Enter Value For **Name** and **Description** and Click **Next**
 ![veeam62](./images/veeam62.jpg)
-3. Select the **Sources** Select the **Azure Active Directory** for Source in the Region select **select region**
+3. Select the **Sources** Select the **Azure Active Directory** for the Source in the Region select **select region**
 ![veeam63](./images/veeam63.jpg)
 4. Select the **Region** and click on **ADD** and click on **Apply**
 ![veeam64](./images/veeam64.jpg)
@@ -200,3 +200,24 @@
 ![veeam91](./images/veeam91.jpg)
 8. Move to **session log** please verif that Restore is **Success**
 ![veeam92](./images/veeam92.jpg)
+
+## Recovery of files from Linux Virtual Machine.
+1. Move to **protected data**, Select **Virtual Machines**, Click on **Restore** and **file-level-recovery**
+![veeam93](./images/veeam93.jpg)
+2. Click on **Virtual Machine** click on **change restore point** select the restore point and **APPLY** Click **Next**
+![veeam94](./images/veeam94.jpg)
+3. Click on **Restore** enter **Restore reason** click **Next**
+![veeam95](./images/veeam95.jpg)
+4. Click on **Summary** and click **Start**
+![veeam96](./images/veeam96.jpg)
+5. Move to **Protected Data**, select the **Virtual machine**, Select **File-Level-Recovery** and click on **FLR**
+![veeam97](./images/veeam97.jpg)
+6. Select the **URL** and open in the **New Browser**
+![veeam98](./images/veeam98.jpg)
+Note: If you prompted with the **connection is not private** then click on **Advance** and click on **continue to**
+ ![veeam99](./images/veeam99.jpg)
+ 7. Select the proper file and folder and click on **+Add to restore list**
+ ![veeam100](./images/veeam100.jpg)
+ 8. Move to **Restore List**, Select the file which you want to download and click on **Download**
+ ![veeam101](./images/veeam101.jpg)
+
