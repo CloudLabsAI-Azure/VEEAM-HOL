@@ -1,19 +1,45 @@
 ![veeam1](./images/veeam1.jpg)
 #  Veeam Hands-on Lab for Microsoft Azure
+## Deploy Veeam VM
+1. After login in to the azure portal in the Search bar search for **Veeam Backup for Microsoft Azure BYOL Edition** and click on **Veeam Backup for Microsoft Azure BYOL Edition**
+![veeam102](./images/veeam102.jpg)
+2. Click on **Create**
+![veeam103](./images/veeam103.jpg)
+3. Enter the details for virtual machine
+   `````
+   Resource Group: Veeam
+   Virtual machine name: Veeam
+   Region: EastUS2
+   Size: Standard_DS1_V2
+   Username: demouser
+   Password: Password.1!!
+   
+   `````
+![veeam104](./images/veeam104.jpg)
+4. Click on **Review+Create** and Click on **Create**
+![veeam105](./images/veeam105.jpg)
+5. Make sure that deployment is **Sucess**
+![veeam106](./images/veeam106.jpg)
+6. Once the deployment is success click on **go to resource** or click on serarch bar and search for the **virtual machine**
+![veeam107](./images/veeam107.jpg)     
+7. Select the virtual machine with the name **Veeam**
+![veeam108](./images/veeam108.jpg)
+8. Select the Overview and copy **Public IP Address**
+![veeam109](./images/veeam109.jpg)
+
 ## Login to Veeam VM
-1. Copy the Public IP address from the VM and Note the **Username** and **Password** from the azure portal
-2. Open the new browser and paste the value copied below and replace the **IPADDRESS** with the Veeam VM IP address
+1. Open the new browser and paste the value copied below and replace the **IPADDRESS** with the Veeam VM IP address
   `````
   https://IPADDRESS
   `````
 ![veeam2](./images/veeam2.jpg)
-3. Click on the **advance**
+2. Click on the **advance**
 ![veeam3](./images/veeam3.jpg)
-4. Click on the **click on processed to IP**
+3. Click on the **click on processed to IP**
 ![veeam4](./images/veeam4.jpg)
-5. Enter the **Username** and **Password** and click on Login
+4. Enter the **demouser** for username and **Password.1!!** for Password and click on Login
 ![veeam5](./images/veeam5.jpg)
-6. Check all the check boxes in the licence agreement and click on **Accept** and login into the VM
+5. Check all the check boxes in the licence agreement and click on **Accept** and login into the VM
 ![veeam6](./images/veeam6.jpg)
 
 ## Add a Microsoft azure account
