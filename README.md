@@ -247,3 +247,36 @@ Note: If you prompted with the **connection is not private** then click on **Adv
  8. Move to **Restore List**, Select the file which you want to download and click on **Download**
  ![veeam101](./images/veeam101.jpg)
 
+## Backup of Azure Files
+1. Navigate to **Policies > Azure Files** and Click **Add**.
+![veeam110](./images/veeam110.jpg)
+2. Provide the **Name** and **Discripition** for **Info**
+![veeam111](./images/veeam111.jpg)
+3. Go to the **sources** and In the **Account** section select the **Configure account** and select the **Azure Active Dierctory** and Select the **ResourceGroup Region**
+![veeam112](./images/veeam112.jpg)
+4. Click on **Resource to protect** and select the **File Share**, Click on **Apply** and Click **Next**. 
+![veeam113](./images/veeam113.jpg)
+5. Move to **Schedule** and enable the **Daily Retension**
+![veeam114](./images/veeam114.jpg)
+6. Move to **Settings** and Click on **Next**
+![veeam115](./images/veeam115.jpg)
+7. Move to **cost estimation** review **cost estimation** and click on **Next**
+![veeam116](./images/veeam116.jpg)
+8. Move to **Summary** and Click on **Finish**
+![veeam117](./images/veeam117.jpg)
+9. Move to **Policies**, Click on **Azure Files**, Check the **Priority** box and Click on **Start**
+![veeam118](./images/veeam118.jpg)
+10. Make Sure that Snapshot creation is **success**
+![veeam119](./images/veeam119.jpg)
+
+## Recovey of Azure Files
+1. Move to **Protect Data**,click on **Azure Files**, Check **Priority**, click on **Restore** and **File-Level Restore**
+![veeam120](./images/veeam120.jpg)
+2. Click on **Account**, Select **Account*** and Click **Apply** and **Next**
+![veeam121](./images/veeam121.jpg)
+3. Move to **Restore Mode**, Restore to **Original Location** and click **Next**
+![veeam122](./images/veeam122.jpg)
+4.Move to the **Reason**,Enter **Reson** and Click **Next**
+![veeam123](./images/veeam123.jpg)
+5. Move to **summary** and Click on **Finish**
+![veeam124](./images/veeam124.jpg)
