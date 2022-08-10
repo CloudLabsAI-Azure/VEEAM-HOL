@@ -280,3 +280,11 @@ Note: If you prompted with the **connection is not private** then click on **Adv
 ![veeam123](./images/veeam123.jpg)
 5. Move to **summary** and Click on **Finish**
 ![veeam124](./images/veeam124.jpg)
+6. Move to **Protected Data**, Click on **Azure Files** and Click on **FLR**
+![veeam129](./images/veeam129.jpg)
+7. Click on the URL it will redirect to the another Tab.
+![veeam130](./images/veeam130.jpg)
+8. Select the **files** and click on **Add to Restore**
+![veeam131](./images/veeam131.jpg)
+9. Select the **Restore list**,click on the check box of file, click on **restore** and click on **keep**.
+![veeam132](./images/veeam132.jpg)
