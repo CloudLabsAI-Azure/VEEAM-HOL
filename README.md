@@ -1,10 +1,10 @@
 ![veeam1](./images/veeam1.jpg)
 #  Veeam Hands-on Lab for Microsoft Azure
 ## Deploy Veeam VM
-1. After login in to the azure portal in the Search bar search for **Veeam Backup for Microsoft Azure BYOL Edition** and click on **Veeam Backup for Microsoft Azure BYOL Edition**
-![veeam102](./images/veeam102.jpg)
+1. After login in to the azure portal in the Search bar search for **Veeam Backup for Microsoft Azure Free Edition** and click on **Veeam Backup for Microsoft Azure Free Edition**
+![veeam127](./images/veeam127.jpg)
 2. Click on **Create**
-![veeam103](./images/veeam103.jpg)
+![veeam128](./images/veeam128.jpg)
 3. Enter the details for virtual machine
    `````
    Resource Group: Veeam
