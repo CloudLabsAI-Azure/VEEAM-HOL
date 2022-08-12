@@ -18,9 +18,9 @@
 ![veeam104](./images/veeam104.jpg)
 4. Click on **Review+Create** and Click on **Create**
 ![veeam105](./images/veeam105.jpg)
-5. Make sure that deployment is **Sucess**
+5. Make sure that deployment is **Success**
 ![veeam106](./images/veeam106.jpg)
-6. Once the deployment is success click on **go to resource** or click on serarch bar and search for the **virtual machine**
+6. Once the deployment is success click on **go to resource** or click on serarch bar and search for the **Virtual machine**
 ![veeam107](./images/veeam107.jpg)     
 7. Select the virtual machine with the name **Veeam**
 ![veeam108](./images/veeam108.jpg)
@@ -39,11 +39,11 @@
 ![veeam4](./images/veeam4.jpg)
 4. Enter the **demouser** for username and **Password.1!!** for Password and click on Login
 ![veeam5](./images/veeam5.jpg)
-5. Check all the check boxes in the licence agreement and click on **Accept** and login into the VM
+5. Check all the **check boxes** in the licence agreement and click on **Accept** and login into the VM
 ![veeam6](./images/veeam6.jpg)
 
 ## Add a Microsoft azure account
-1. Click on add a microsoft azure account first
+1. Click on **Add a Microsoft Azure Account First**
 ![veeam7](./images/veeam7.jpg)
 2. Click on **Add**
 ![veeam8](./images/Veeam8.jpg)
@@ -51,7 +51,7 @@
 ![veeam9](./images/veeam9.jpg)
 4. In the **Service Account Type** click on **Specify the exisiting service account**
 ![veeam10](./images/veeam10.jpg)
-5. Copy the **TenantID**, **Application ID** and **Secret** of service principal from environment details Tab
+5. Copy the **TenantID**, **Application ID** and **Secret key** of service principal from environment details Tab
 ![veeam11](./images/veeam11.jpg)
 6. Paste the Copied values in the respective fields and click **Next**
 ![veeam12](./images/veeam12.jpg)
@@ -59,7 +59,7 @@
 ![veeam13](./images/veeam13.jpg)
 
 ## Add the Workers to Workspace
-1. Go to **Getting Started page** and **click on Review workers configuration**
+1. Go to **Getting Started page** and click on **Review workers configuration**
 ![veeam14](./images/veeam14.jpg)
 2. Click on **+Add**
 ![veeam15](./images/veeam15.jpg)
@@ -77,7 +77,7 @@
 ![veeam22](./images/veeam22.jpg)
 9. Go to **summary** and click **Finish**
 ![veeam23](./images/veeam23.jpg)
-10. Move to **instance** tab and verify instance is created if it is still in creating state wait till it move to created state
+10. Move to **Instance** tab and verify instance is created if it is still in creating state wait till it move to **created** state
 ![veeam24](./images/veeam24.jpg)
 
 ## Add the repository
@@ -85,15 +85,15 @@
 ![veeam25](./images/veeam25.jpg)
 2. Click on **+Add**
 ![veeam26](./images/veeam26.jpg)
-3. Enter the **Name** and **Discription** and Click **Next**
+3. Enter the **Name** and **Description** and Click **Next**
 ![veeam27](./images/veeam27.jpg)
-4. Select the **storage account**, **Conatiner** and create the **NewFolder** and **Next**
+4. Select the **storage account**, **Continer** and create the **NewFolder** and **Next**
 ![veeam28](./images/veeam28.jpg)
 5. Select the **Option** and click **Next**
 ![veeam28](./images/veeam29.jpg)
 6. Click on **Summary** and **Finish**
 ![veeam30](./images/veeam30.jpg)
-7. Verify that the repository is creation in success state.
+7. Verify that the repository is creation in **Success** state.
 ![veeam31](./images/veeam31.jpg)
 
 ## Create Backup policy for Virtual Machines
@@ -101,7 +101,7 @@
 ![veeam32](./images/veeam32.jpg)
 2. Click on **+Add**
 ![veeam33](./images/veeam33.jpg)
-3. Click on **PolicyInfo** enter the **Name** and **Description** and click **Next**
+3. Click on **Policy Info** enter the **Name** and **Description** and click **Next**
 ![veeam34](./images/veeam34.jpg)
 4. Select the **Azure Active Directory**, select the directory which is given in the azure and select the **Region**
 ![veeam35](./images/veeam35.jpg)
