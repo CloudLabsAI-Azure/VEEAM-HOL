@@ -258,8 +258,8 @@ Note : Wait till the creation of the link
 ![veeam98](./images/veeam98.jpg)
 Note: If you prompted with the **connection is not private** then click on **Advance** and click on **continue to**
  ![veeam99](./images/veeam99.jpg)
- 7. Select the proper file and folder and click on **+Add to restore list**
- ![veeam100](./images/veeam100.jpg)
+ 7. Move to **var/lib/waagent/custom-script/download/0** Select the **file1.txt** file and click on **+Add to restore list**
+ ![veeam142](./images/veeam142.jpg)
  8. Move to **Restore List**, Select the file which you want to download and click on **Download**
  ![veeam101](./images/veeam101.jpg)
 
@@ -272,6 +272,7 @@ Note: If you prompted with the **connection is not private** then click on **Adv
 ![veeam112](./images/veeam112.jpg)
 4. Click on **Resource to protect** and select the **File Share** from the **Browse to select the specific resource from global list**, Click on **Apply** and Click **Next**. 
 ![veeam141](./images/veeam141.jpg)
+Note: If is file share is not available click on **refersh**
 5. Move to **Schedule** and enable the **Daily Retension**
 ![veeam114](./images/veeam114.jpg)
 6. Move to **Settings** and Click on **Next**
