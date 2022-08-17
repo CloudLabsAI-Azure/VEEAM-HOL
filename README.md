@@ -37,6 +37,8 @@
 ![veeam3](./images/veeam3.jpg)
 3. Click on the **click on processed to IP**
 ![veeam4](./images/veeam4.jpg)
+**Note**: Wait till all the status move to **Success**
+![veeam133](./images/veeam133.jpg)
 4. Enter the **demouser** for username and **Password.1!!** for Password and click on Login
 ![veeam5](./images/veeam5.jpg)
 5. Check all the **check boxes** in the licence agreement and click on **Accept** and login into the VM
