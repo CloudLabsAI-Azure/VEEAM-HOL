@@ -130,7 +130,7 @@
 
 ![veeam16](./images/veeam16.jpg)
 
-4. Select the **Virtual Network**:**Veeam-vnet**, **Subnet**:**default** and **Network security Group**:**veeam-nsg** and **Next**
+4. Select the **Virtual Network**:**Veeamvm-vnet**, **Subnet**:**default** and **Network security Group**:**veeam-nsg** and **Next**
 ![veeam18](./images/veeam18.jpg)
 
 5. Click on **Finish**
