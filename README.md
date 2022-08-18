@@ -78,7 +78,7 @@ Note: If Warning notification is popup Ignore the Warning
 3. Click on **region** and select the of the resource group and **Apply** and Click **Next**
 ![veeam16](./images/veeam16.jpg)
 4. Select the **Virtual Network**:**Veeam-vnet**, **Subnet**:**default** and **Network security Group**:**veeam-nsg** and **Next**
-![veeam18](./images/veeam18.jpg)
+![veeam143](./images/veeam143.jpg)
 5. Click on **Finish**
 ![veeam19](./images/veeam19.jpg)
 6. Click on **profile** and **+Add**
