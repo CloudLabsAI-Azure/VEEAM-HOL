@@ -286,11 +286,11 @@
 
 ![veeam56](./images/veeam56.jpg)
 
-   **Note**: If the Warning window is popup click on **Continue**
 
 5. Within **Restore Mode** select the **Restore to Original Location** and click **Next**
 
 ![veeam57](./images/veeam57.jpg)
+  **Note**: If the Warning window is popup click on **Continue**
 
 6. Go to **Reason** provide the **Restore Reason**: **VM deleted** and click **Next**
 
