@@ -1,5 +1,7 @@
 ![veeam1](./images/veeam1.jpg)
 #  Veeam Hands-on Lab for Microsoft Azure
+
+
 ## Login to Azure portal
 1. Once the VM is launched, open the Edge browser shortcut named **Azure Portal**
 
