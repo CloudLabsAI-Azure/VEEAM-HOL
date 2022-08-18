@@ -30,7 +30,7 @@
    Region: EastUS2
    Size: Standard_DS1_V2
    Username: demouser
-   Password: Password.1!!
+   Password: 
    
    `````
 
