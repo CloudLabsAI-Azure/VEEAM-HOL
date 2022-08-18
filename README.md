@@ -130,9 +130,8 @@
 
 ![veeam16](./images/veeam16.jpg)
 
-4. Select the **Virtual Network**: **Veeamvm-vnet**, **Subnet**: **default** and **Network Security Group**: **veeam-nsg** and click **Next**
-
-![veeam18](./images/veeam18.jpg)
+4. Select the **Virtual Network**:**Veeam-vnet**, **Subnet**:**default** and **Network security Group**:**veeam-nsg** and **Next**
+![veeam143](./images/veeam143.jpg)
 
 5. Click on **Finish**
 
@@ -387,93 +386,173 @@
 ![veeam81](./images/veeam81.jpg)
 
 ## Delete the SQL Database
-1. Move to Azure Portal Search for the **SQL databases** and open the database **sampleDB**.
+
+1. Navigate to Azure Portal. Select resource group named **veeam** and open the database **SampleDB**
+
 ![veeam83](./images/veeam83.jpg)
-2. Select the overview of **SQL Database** and click on **Delete**
+
+2. Select the overview of **SampleDB** and then click on **Delete**
+
 ![veeam84](./images/veeam84.jpg)
-3. **yes** and click on **Delete**
+
+3. Pop-up will appear, within that type in the database name and click on **Delete**
+
 ![veeam85](./images/veeam85.jpg)
-**Note**:Wait untill deletion is success
+
+**Note**: Please wait untill deletion is success
 
 ## Recovery of SQL Database
-1. Move to **protect data** ,select **Azure SQL**,Select the **checkbox for the Azure SQL** and Click on **restore database** 
+
+1. Navigate to **Veeam Backup for Microsoft Azure** page. Select the **Protected Data** then select **Azure SQL** option. Within it check the checkbox for **SamepleDB** and click on **restore database** 
+
 ![veeam82](./images/veeam82.jpg)
-2. Goto **Databases**, Select the **SQLdatabase** and Click on **Next**
+
+2. Under **Databases**, Select the **SQLdatabase** and Click on **Next**
+
 ![veeam86](./images/veeam86.jpg)
-3. Goto **Accounts**, **select the Account**, Select the Account given, click **Apply** and **Next**
+
+3. Under **Accounts**, click on **select the Account**, within it choose an Azure account and click on **Apply**. Select **Next**
+
 ![veeam87](./images/veeam87.jpg)
-4. Goto **Restore Mode**, select the checkbox for **Restore to the original location** and click **Next**
+
+4. Leave defaults within **Restore Mode** and click **Next**
+
 ![veeam88](./images/veeam88.jpg)
-**Note**:If warning window is popup click on **Continue**
-5. Goto **SQL Account**,select **Account**, click **Apply** and **Next**
+
+**Note**: If warning window comes up then click on **Continue**
+
+5. Under **SQL Account**, click on **SqlAccount**, choose an account and click on **Apply**. Select **Next**
+
 ![veeam89](./images/veeam89.jpg)
-6. Goto **Reason**,**enter Reason**:**Sql deleted** click **Next**
+
+6. Under **Reason**, enter Restore reason as **SQL deleted** and select **Next**
+
 ![veeam90](./images/veeam90.jpg)
-7. Select **Summary** click on **Restore**
+
+7. Leave defaults under **Summary** and click on **Restore**
+
 ![veeam91](./images/veeam91.jpg)
-8. Move to **session log** please verif that Sql Restore is **Success**, if it is not success wait untill it move to success state.
+
+8. Select **Session Log**. Within it please verify that the SQL Restore Status is showing as **Success** or not, if not then please wait untill it gets succeded.
+
 ![veeam92](./images/veeam92.jpg)
 
 ## Recovery of files from Linux Virtual Machine.
-1. Move to **protected data**, Select **VeeamLinux-DID**, Click on **Restore** and **file-level-recovery**
+
+1. Select **Protected Data**, within it select **Virtual Machines** and then check the checkbox for virtual machine named as **VeeamLinux-DID**. Click on **Restore** and select an option **file-Level-Recovery**
+
 ![veeam140](./images/veeam140.jpg)
-2. Click on **Virtual Machine** click on **change restore point** select the restore point and **APPLY** Click **Next**
+
+2. Click on **Change Restore Point**. Specify the restore point where **Backup Destsination** is mentioned as **AzureBackup**. Click on **Apply** and then **Next**.
+
 ![veeam94](./images/veeam94.jpg)
-3. Click on **Restore** enter **Restore reason**:**filerestore** click **Next**
+
+3. Under **Restore** enter Restore reason as **Restore File** and select **Next**
+
 ![veeam95](./images/veeam95.jpg)
-4. Click on **Summary** and click **Start**
+
+4. Under **Summary**, click on **Start** to initiate the restore.
+
 ![veeam96](./images/veeam96.jpg)
-Note : Wait till the creation of the link
-5. Move to **Protected Data**, select the **Virtual machine**, Select **File-Level-Recovery** and click on **FLR**
+
+5. Under **Protected Data**, within the **Virtual Machines** click on the **FLR** under **File-level Recovery URL** option for the Virtual Machine **VeeamLinux-DID**.
+
 ![veeam97](./images/veeam97.jpg)
-6. Select the **URL** and open in the **New Browser**
+
+**Note**: Please wait till the creation of the link.
+
+6. Click on the **URL**. The link will get open in the **New Browser Tab**.
+
 ![veeam98](./images/veeam98.jpg)
-Note: If you prompted with the **connection is not private** then click on **Advance** and click on **continue to**
+
+**Note**: If warning appears stating that **Your connection isn't private** then click on **Advance** and select a link starting with **continue to** as shown in below mentioned screenshot. 
+
  ![veeam99](./images/veeam99.jpg)
- 7. Move to **var/lib/waagent/custom-script/download/0** Select the **file1.txt** file and click on **+Add to restore list**
- ![veeam142](./images/veeam142.jpg)
- 8. Move to **Restore List**, Select the file which you want to download and click on **Download**
+
+7. Under folder named **disk_0_0**, select the folders **var/lib/waagent/custom-script/download/0**. Check the checkbox for file **text1.txt** and click on **Add to Restore List**
+
+![veeam142](./images/veeam142.jpg)
+ 
+8. Go to **Restore List(1)**, check the checkbox for the file **text1.txt** and click on **Download**
+ 
  ![veeam101](./images/veeam101.jpg)
 
 ## Backup of Azure Files
-1. Navigate to **Policies > Azure Files** and Click **Add**.
+
+1. Navigate to **Veeam Backup for Microsoft Azure** page. Close the pop-up window of **File-level Recovery**. Selct **Policies**. Within it select **Azure Files** and click **Add**.
+
 ![veeam110](./images/veeam110.jpg)
-2. Provide the **Name**:**file backup** and **Discripition**:**create file backup** for **Info**
+
+2. Provide the Policy Name as **azurebackup** and Discripition as **file backup**. select **Next**. 
+
 ![veeam111](./images/veeam111.jpg)
-3. Go to the **sources** and In the **Account** section select the **Configure account** and select the **Azure Active Dierctory** and Select the **ResourceGroup Region**
+
+3. Under **Sources**, within **Account** click on **Configure account** to choose an Azure account and select **Apply**. Within **Region** choose a region same as Resource Group region. Click on **Add** and **Apply**. 
+
 ![veeam112](./images/veeam112.jpg)
-4. Click on **Resource to protect** and select the **File Share** from the **Browse to select the specific resource from global list**, Click on **Apply** and Click **Next**. 
+
+4. Within **Resources**, click on **Select resources to protect** and select the Resource type as **File Share**. Click on **Browse to select the specific resource from global list..**, if file share is not available then click on **Rescan** and if available then check the checkbox for the file share. Click on **Add**. Select **Apply** and then **Next**. 
+
 ![veeam141](./images/veeam141.jpg)
-Note: If is file share is not available click on **refersh**
-5. Move to **Schedule** and enable the **Daily Retension**
+
+5. Under **Schedule**, enable an option **Daily retension** and click on **Next**.
+
 ![veeam114](./images/veeam114.jpg)
-6. Move to **Settings** and Click on **Next**
+
+6. Leave defaults under **Settings** and click on **Next**
+
 ![veeam115](./images/veeam115.jpg)
-7. Move to **cost estimation** review **cost estimation** and click on **Next**
+
+7. Under **cost Estimation**, review the cost estimation and click on **Next**.
+
 ![veeam116](./images/veeam116.jpg)
-8. Move to **Summary** and Click on **Finish**
+
+8. Under **Summary**, click on **Finish**
+
 ![veeam117](./images/veeam117.jpg)
-9. Move to **Policies**, Click on **Azure Files**, Check the **Priority** box and Click on **Start**
+
+9. Under **Policies**, within **Azure Files**, check if the **Priority** box is checked or not. If not, then check it and Click on **Start**
+
 ![veeam118](./images/veeam118.jpg)
-10. Make Sure that Snapshot creation is **success**
+
+10. Make Sure that Snapshot creation is succeeded as shown in below mentioned screenshot.  
+
 ![veeam119](./images/veeam119.jpg)
 
 ## Recovey of Azure Files
-1. Move to **Protect Data**,click on **Azure Files**, Check **Priority**, click on **Restore** and **File-Level Restore**
+
+1. Select **Protected Data**, within it click on **Azure Files**, check the checkbox for **File Share**. Click on **Restore** and then **File-Level Restore**.
+
 ![veeam120](./images/veeam120.jpg)
-2. Click on **Account**, Select **Account** and Click **Apply** and **Next**
+
+2. Under **Account**, click on **Select account..**, choose an Azure account and click on **Apply**. Select **Next**.
+
 ![veeam121](./images/veeam121.jpg)
-3. Move to **Restore Mode**, Restore to **Original Location** and click **Next**
+
+3. Leave defaults under **Restore Mode** and select **Next**.
+
 ![veeam122](./images/veeam122.jpg)
-4.Move to the **Reason**:**File level recovery**,Enter **Reson** and Click **Next**
+
+4. Under **Reason**, provide Restore reason as **Reason** and click on **Next**.
+
 ![veeam123](./images/veeam123.jpg)
-5. Move to **summary** and Click on **Start**
+
+5. Under **Summary**, review the configures setting and then click on **Start**
+
 ![veeam124](./images/veeam124.jpg)
-6. Move to **Protected Data**, Click on **Azure Files** and Click on **FLR**
+
+6. Under **Protected Data**, within **Azure Files** click on the **FLR** under **File-level Recovery URL** option for the File Share **myshare**.
+
 ![veeam129](./images/veeam129.jpg)
-7. Click on the URL it will redirect to the another Tab.
+
+7. Click on the **URL**. The link will get open in the **New Browser Tab**
+
 ![veeam130](./images/veeam130.jpg)
-8. Select the **files** and click on **Add to Restore**
+
+8. Select the folder named **Veeam**. Check the checkbox for the file **file1** and click on **Add to Restore List**
+
 ![veeam131](./images/veeam131.jpg)
-9. Select the **Restore list**,click on the check box of file, click on **restore** and click on **keep**.
+
+9. Select the **Restore list(1)**, check the checkbox for **file1**, click on **Restore** and select an option **Keep**.
+
 ![veeam132](./images/veeam132.jpg)
