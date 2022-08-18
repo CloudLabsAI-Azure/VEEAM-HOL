@@ -131,11 +131,11 @@
 ![veeam16](./images/veeam16.jpg)
 
 4. Select the **Virtual Network**:**Veeam-vnet**, **Subnet**:**default** and **Network security Group**:**veeam-nsg** and **Next**
-![veeam143](./images/veeam143.jpg)
+![veeam18](./images/veeam18.jpg)
 
 5. Click on **Finish**
 
-![veeam19](./images/veeam19.jpg)
+![veeam143](./images/veeam143.jpg)
 
 6. Click on **Profile** tab on top and click **+Add**
 
@@ -153,9 +153,7 @@
 
 ![veeam23](./images/veeam23.jpg)
 
-10. Move to **Instances** tab and verify instance is created if it is still in creating state wait until it is **Created**
 
-![veeam24](./images/veeam24.jpg)
 
 ## Add repository
 1. Move to **Getting Started** page and click on **Add repository**
