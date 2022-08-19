@@ -28,4 +28,10 @@ In this exercise, you will create the backup for both Linux and Windows virtual 
 
 ## Exercise 4: Delete and Restore Windows and Linux VM
 
+
 In this exercise, you will delete the windows VM, then work on the backup of the Windows VM and also recovery of files from the Linux VM
+
+## Exercise 5: Add Azure SQL Backup
+
+
+In this exercise, you will be adding Azure SQL Backup. Azure Backup offers a stream-based, specialized solution to back up SQL Server running in Azure VMs. This solution aligns with Azure Backup's benefits of zero-infrastructure backup, long-term retention, and central management.
