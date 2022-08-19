@@ -26,7 +26,7 @@ In this exercise, you will deploy a Veeam Virtual machine to configure Backup fo
 
 In this exercise, you will create the backup for both Linux and Windows virtual Machine.
 
-## Exercise 4: Delete and Restore Windows and Linux VM
+## Exercise 4: Delete and Restore Virtual machines
 
 
 In this exercise, you will delete the windows VM, then work on the backup of the Windows VM and also recovery of files from the Linux VM
@@ -35,3 +35,18 @@ In this exercise, you will delete the windows VM, then work on the backup of the
 
 
 In this exercise, you will be adding Azure SQL Backup. Azure Backup offers a stream-based, specialized solution to back up SQL Server running in Azure VMs. This solution aligns with Azure Backup's benefits of zero-infrastructure backup, long-term retention, and central management.
+
+## Exercise 6: Delete and Restore SQL Database
+
+
+In this exercise, you will be deleting the created SQL database from Azure portal and restoring it from Veeam Backup.
+
+## Exercise 7: Backup of Azure File Share
+
+
+In this exercise, you are creating the backup for the Azure file share
+
+## Exercise 8: Restore Azure File Share
+
+
+In this exercise, we are doing recovery of file share
