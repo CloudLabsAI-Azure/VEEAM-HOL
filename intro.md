@@ -11,42 +11,26 @@ Veeam Backup for Microsoft Azure does not install agent software inside instance
 
 ## Lab context
 
-## Exercise 1: Getting Started with Azure
-
-
+### Exercise 1: Getting Started with Azure
 In this exercise, you will log in to the Azure Portal and review the pre-deployed resources as part of the lab environment.
 
-## Exercise 2: Access and Configure VEEAM Backup for MS Azure
-
-
+### Exercise 2: Access and Configure VEEAM Backup for MS Azure
 In this exercise, you will deploy a Veeam Virtual machine to configure Backup for MS Azure, and also you will add Microsoft Azure Account, Workers to Workspace, and Repository to the Virtual Machine.
 
-## Exercise 3 : Create Backup policy for Virtual Machines
-
-
+### Exercise 3 : Create Backup policy for Virtual Machines
 In this exercise, you will create the backup for both Linux and Windows virtual Machine.
 
-## Exercise 4: Delete and Restore Virtual machines
-
-
+### Exercise 4: Delete and Restore Virtual machines
 In this exercise, you will delete the windows VM, then work on the backup of the Windows VM and also recovery of files from the Linux VM
 
-## Exercise 5: Add Azure SQL Backup
-
-
+### Exercise 5: Add Azure SQL Backup
 In this exercise, you will be adding Azure SQL Backup. Azure Backup offers a stream-based, specialized solution to back up SQL Server running in Azure VMs. This solution aligns with Azure Backup's benefits of zero-infrastructure backup, long-term retention, and central management.
 
-## Exercise 6: Delete and Restore SQL Database
-
-
+### Exercise 6: Delete and Restore SQL Database
 In this exercise, you will be deleting the created SQL database from Azure portal and restoring it from Veeam Backup.
 
-## Exercise 7: Backup of Azure File Share
-
-
+### Exercise 7: Backup of Azure File Share
 In this exercise, you are creating the backup for the Azure file share
 
-## Exercise 8: Restore Azure File Share
-
-
+### Exercise 8: Restore Azure File Share
 In this exercise, we are doing recovery of file share
