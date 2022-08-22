@@ -4,37 +4,41 @@
     "Language": "English",
     "Files": [
       {
-        "RawFilePath": "https://raw.githubusercontent.com/bhavangowdan/VEEAM-HOL/main/01.%20Gettingstarted.md",
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/VEEAM-HOL/main/intro.md",
         "Order": 1
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/bhavangowdan/VEEAM-HOL/main/02.%20Access%20and%20Configure%20VEEAM%20Backup%20for%20MS%20Azure.md",
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/VEEAM-HOL/main/01.%20Gettingstarted.md",
         "Order": 2
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/bhavangowdan/VEEAM-HOL/main/03.%20Create%20Backup%20policy%20for%20VMS%E2%80%8B.md",
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/VEEAM-HOL/main/02.%20Access%20and%20Configure%20VEEAM%20Backup%20for%20MS%20Azure.md",
         "Order": 3
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/bhavangowdan/VEEAM-HOL/main/04.%20Delete%20and%20Restore%20Windows%20%20and%20Linux%20VM%E2%80%8B.md",
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/VEEAM-HOL/main/03.%20Create%20Backup%20policy%20for%20VMS%E2%80%8B.md",
         "Order": 4
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/bhavangowdan/VEEAM-HOL/main/5.%20Add%20SQL%20Backup.md",
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/VEEAM-HOL/main/04.%20Delete%20and%20Restore%20Virtual%20machines.md",
         "Order": 5
       },
       {
-        "RawFilePath": "",
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/VEEAM-HOL/main/05.%20Add%20Azure%20SQL%20Backup.md",
         "Order": 6
       },
       {
-        "RawFilePath": "",
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/VEEAM-HOL/main/06.%20Delete%20and%20Restore%20SQL%20Database.md",
         "Order": 7
       },
       {
-        "RawFilePath": "",
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/VEEAM-HOL/main/07.%20Backup%20of%20Azure%20File%20Share%E2%80%8B.md",
         "Order": 8
-      },          
+      }, 
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/VEEAM-HOL/main/08.%20Restore%20Azure%20File%20Share%E2%80%8B.md",
+        "Order": 9
+      }        
     ]
   }
 ]
