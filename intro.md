@@ -9,7 +9,7 @@ Veeam Backup & Replication v11 delivers industry‑leading Modern Data Protectio
 
 Veeam Backup for Microsoft Azure does not install agent software inside instances to retrieve data. To back up resource data, Veeam Backup for Microsoft Azure uses native Microsoft Azure capabilities. During every backup session, Veeam Backup for Microsoft Azure creates a cloud-native snapshot (for an Azure VM or an Azure file share) or a BACPAC file (for an Azure SQL database) for each Azure resource added to a backup policy. The cloud-native snapshot is further used to create an image-level backup of the Azure VM, and the BACPAC file is used to create an image-level backup of the Azure SQL database.
 
-## Lab context
+# Lab context
 
 ### Exercise 1: Getting Started with Azure
 In this exercise, you will log in to the Azure Portal and review the pre-deployed resources as part of the lab environment.
