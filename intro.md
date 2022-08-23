@@ -32,4 +32,4 @@ In this exercise, you will be deleting the created SQL database from Azure porta
 In this exercise, you are creating the backup for the Azure file share
 
 ### Exercise 8: [Restore Azure File Share](08.%20Restore%20Azure%20File%20Share%E2%80%8B.md)
-In this exercise, we are doing recovery of file share
+In this exercise, you are doing recovery of file share
