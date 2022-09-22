@@ -40,3 +40,5 @@ In this exercise, you are creating the backup for the Azure file share
 
 ### Exercise 8: [Restore Azure File Share](08.%20Restore%20Azure%20File%20Share%E2%80%8B.md)
 In this exercise, you are doing recovery of file share
+
+“**CLICK NEX**T”  to move to next pge
